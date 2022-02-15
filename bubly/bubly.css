@@ -1,0 +1,102 @@
+html, body {
+  margin:0;
+  padding:0;
+  font-family: Verdana, sans-serif;
+  background-color: #AB06EE;
+}
+
+#wrap {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #76C9E9;
+}
+
+header {
+  text-align: center;
+  padding: 10px;
+  background-color: #76C9E9;
+}
+
+header img {
+  width: 75%;
+}
+
+nav {
+  background-color: orange;
+  padding: 20px 0;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  padding: 20px 40px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #AB06EE;
+  color: white;
+}
+
+nav li {
+  display: inline;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 40px;
+  overflow: auto;
+  color: white;
+}
+
+section p img {
+  margin: 10px;
+}
+
+section h1 {
+  color: white;
+  margin: 0;
+  font-size: 200%;
+}
+
+figure {
+  background: black;
+  width: 29%;
+  padding: 1%;
+  float: left;
+  margin: 1%;
+  overflow: auto;
+}
+
+figure img {
+  width: 100%;
+}
+
+footer {
+  background-color: orange;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.bubly {
+  width: 30%;
+  float: right;
+}
+
+.button {
+  background-color: orange;
+  color: white;
+  padding: 20px;
+  font-size: 150%;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  display: inline-block;
+}
