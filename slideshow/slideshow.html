@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Slideshow</title>
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link href="slideshow.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="wrap">
+    <header>
+      Header
+    </header>
+
+    <nav>
+      Nav
+    </nav>
+
+    <section>
+      <div class="slider-wrapper theme-dark">
+          <div id="slider" class="nivoSlider">
+              <img src="images/stars.jpg" data-thumb="images/stars.jpg" alt="" />
+              <a href="http://nasa.gov"><img src="images/nasa.jpg" data-thumb="images/nasa.jpg" alt="" title="Nasa picture of the stars." /></a>
+              <img src="images/moon_earth.jpg" data-thumb="images/moon_earth.jpg" alt="" data-transition="slideInLeft" />
+              <img src="images/earth.jpg" data-thumb="images/earth.jpg" alt="" title="#htmlcaption" />
+          </div>
+          <div id="htmlcaption" class="nivo-html-caption">
+              <strong>Space</strong> is a place owned by <a href="http://nasa.gov">NASA</a>.
+          </div>
+      </div>
+    </section>
+
+    <footer>
+      Footer
+    </footer>
+   </div> <!--End wrap-->
+   <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+   <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+   <script type="text/javascript">
+   $(window).load(function() {
+       $('#slider').nivoSlider();
+   });
+   </script>
+  </body>
+</html>
