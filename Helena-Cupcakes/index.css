@@ -1,0 +1,154 @@
+html, body {
+  background: #CCCCCC;
+  font-family: Verdana, sans-serif;
+}
+
+.cupcake {
+  float: right;
+  width: 30%;
+  margin: 0 0 40px 40px;
+}
+
+#wrap {
+  margin: 0 auto;
+  width: 100%;
+}
+
+header, nav, section, footer {
+  background: white;
+}
+
+header img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+nav {
+  background-color: #0EC8C7;
+  padding: 20px;
+  text-align: center;
+}
+
+nav li, footer li {
+  display: inline;
+}
+
+nav a {
+  color: white;
+  padding: 20px 55px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: lightblue;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  overflow: auto;
+  background-color: #EC3632;
+}
+
+aside {
+  background-color: #EC3632;
+  width: 21%;
+  float: left;
+  padding: 2% 0 0 0;
+}
+
+aside a {
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  display: inline-block;
+  padding: 10px 10px 10px 32px;
+}
+
+aside a:hover {
+  background-color: red;
+}
+
+aside li {
+  list-style-type: none;
+}
+
+aside ul {
+  padding: 0;
+  margin: 0;
+}
+
+article {
+  background-color: #fff;
+  width: 67%;
+  float: right;
+  padding: 2% 4%;
+}
+
+footer {
+  background-color: #0EC8C7;
+  text-align: center;
+  font-size: 11px;
+  padding: 25px 0;
+}
+
+.cupcake {
+  width: 35%;
+  float: right;
+  margin: 0 0 10px 30px;
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1200px) {
+  nav a {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .cupcake {
+    width: 40%;
+    float: right;
+  }
+
+  #wrap {
+    width: 100%;
+  }
+  aside {
+    text-align: center;
+  }
+  aside a {
+    padding: 10px;
+    width: 100%;
+  }
+  nav li {
+    display: block;
+  }
+  nav a {
+    display: block;
+    padding: 10px;
+  }
+  nav a:hover {
+    background-color: lightblue;
+  }
+  aside a:hover {
+    background-color: red;
+  }
+  aside, article {
+    float: none;
+    width: 91%;
+  }
+  .yesbird {
+    float: none;
+    width: 90%;
+  }
+}
